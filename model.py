@@ -18,6 +18,8 @@ def analyze_sentiment(text):
 def analyze_batch_sentiments(texts):
     """
     Analyze a list of texts (for batch processing).
+    Returns list of results with original text attached.
     """
-    results = sentiment_pipeline(texts)
-    return results
+    clean_texts = [t.strip() for t in texts if isinstance(t, str) and t.strip()]
+    results = sentiment_pipeline(clean_texts)
+    return [{"text": t, **r} for t, r in zip(clean_texts, results)]
