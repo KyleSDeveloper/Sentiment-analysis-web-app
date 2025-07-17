@@ -1,2 +1,25 @@
-# Sentiment-analysis-web-app
-A Python-based web app for sentiment analysis using PyTorch and Streamlit
+# 🧠 Sentiment Analysis Web App with DistilBERT
+
+A lightweight, deployable sentiment analysis app that uses a pretrained transformer model (`distilbert-base-uncased-finetuned-sst-2-english`) to classify text as **positive** or **negative**. Built with [Hugging Face Transformers](https://huggingface.co/transformers/), [PyTorch](https://pytorch.org/), and [Streamlit](https://streamlit.io/).
+
+## 🚀 Demo
+
+Try the live app here: [https://your-streamlit-link](https://your-streamlit-link)
+
+<img src="screenshots/demo.gif" alt="App demo" width="600"/>
+
+---
+
+## ✨ Features
+
+- 🔍 Sentiment classification using fine-tuned DistilBERT
+- 📄 Batch processing for multiple inputs
+- 📊 (Optional) Sentiment visualization
+- 💡 Clean, simple Streamlit UI
+- 📦 Easy to run locally or deploy
+
+---
+
+## 📁 Project Structure
+
+
