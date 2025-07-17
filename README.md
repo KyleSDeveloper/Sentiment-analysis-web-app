@@ -4,7 +4,7 @@ A lightweight, deployable sentiment analysis app that uses a pretrained transfor
 
 ## 🚀 Demo
 
-Try the live app here: [https://your-streamlit-link](https://your-streamlit-link)
+Try the live app here: [https://sentiment-analysis-web-app-ugodypqhh6napowvduphj3.streamlit.app/](https://your-streamlit-link)
 
 <img src="screenshots/demo.gif" alt="App demo" width="600"/>
 
